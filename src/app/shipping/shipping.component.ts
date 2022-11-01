@@ -13,7 +13,7 @@ export class ShippingComponent implements OnInit {
   constructor(private cartService: CartService) { }
 
   ngOnInit(): void {
-    // this.shippingCosts = this.cartService.getShippingPrices()
+    this.shippingCosts = this.cartService.getShippingPrices()
   }
 
 }
